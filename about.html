@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MyGov</title>
+    <style>
+        /* CSS styles */
+
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: rgb(64, 136, 64);
+            color: #fff;
+            text-align: center;
+            font-size: larger;
+            padding: 15px 0;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .banner {
+            background-image: url('about.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            font-size: larger;
+            background-position: cover;
+            width: 1487px;
+            height: 605px;
+            padding: 100px 0;
+        }
+
+        .about, .services, .contact {
+            padding: 50px 0;
+        }
+
+
+        .contact form {
+            margin-top: 20px;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: rgb(64, 136, 64);
+            color: #fff;
+            font-size: large;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 10px 0;
+            }
+            header h1 {
+                float: none;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            nav {
+                float: none;
+                text-align: center;
+            }
+            nav ul li {
+                display: block;
+                margin: 0;
+            }
+            .banner {
+                padding: 80px 0;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>MyGov</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section class="banner">
+    <div class="container">
+        <h1><b>About Us</b></h1>
+        <h3><p>MyGov is a secure way to access government services online with one login and one password.</p></h3>
+        <h3><p>With myGov, you can:</p></h3>
+        <ul>
+            <li>Access a range of government services</li>
+            <li>Manage your personal information</li>
+            <li>Communicate with government departments securely</li>
+        </ul>
+  
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 MyGov. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
